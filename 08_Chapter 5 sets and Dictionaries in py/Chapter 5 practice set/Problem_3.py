@@ -1,0 +1,5 @@
+s=set()
+n=str('9')
+s.add(n)
+s.add(9)
+print(s)

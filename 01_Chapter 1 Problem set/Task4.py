@@ -1,0 +1,7 @@
+name=input("Enter your name:")
+age=input("Enter Your Age:")
+uni=input("Enter Your University")
+print("Hello ",name,".Your Age is",age,"and your university is:",uni )
+print(type(name))
+print(type(age))
+print(type(uni))

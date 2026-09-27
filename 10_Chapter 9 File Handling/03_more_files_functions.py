@@ -1,0 +1,13 @@
+f=open("file.txt")
+line=f.readlines()
+# print(line,type(line)) #returns all the lines in the form of a list
+f.seek(0)
+line1=f.readline()
+print(line1,type(line1))
+line2=f.readline()
+print(line2,type(line2))
+line3=f.readline()
+print(line3,type(line3))
+line4=f.readline()
+print(line4,type(line4))
+f.close()
